@@ -42,10 +42,10 @@ function formatHours(){
 
 // The official MTA app uses the following JSON structure, it's brittle and I sniped it with a proxy
 // e.g. http://ws.nee1983.org/ws/Trainstatus/1/188/2014/6/18/2000/5860c1ee-1ade-4825-b47a-1f07466b0840/tripstatus.json?_=1403139502881
-// @reverse: 			Flip the origin and destination stations by pressing the forward button on the watch
-// @url: 				Url to be passed in to ajax construct
 // @originStation: 		Starting point (e.g. 1 = Grand Central Terminal)
-// @destinationStation: End point (e.g. 188 = Fairfield Metro)
+// @destinationStation: 	End point (e.g. 188 = Fairfield Metro)
+// @reverse: 			Flip the origin and destination stations by pressing the forward button on the watch
+// @url: 			Url to be passed in to ajax construct
 var originStation = 1,
 	destinationStation = 188,
 	reverse = false,
