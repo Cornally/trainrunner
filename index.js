@@ -54,10 +54,10 @@ extend(TR, {
 	 * @url: 				Url to be passed in to ajax construct
 	 */
 	url: {
-		originStation: 			1,
+		originStation: 		1,
 		destinationStation: 	188,
-		reverse: 				false,
-		url: 					''
+		reverse: 		false,
+		url: 			''
 	},
 
 	// TODO: Sometimes, there will be no viable trains for an hour
